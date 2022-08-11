@@ -1,24 +1,21 @@
-﻿using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
-
-namespace Loja.Web.Controllers;
+﻿namespace Loja.Web.Controllers;
 
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
+    private readonly IProdutoRepository _produtoRepository;
+    private readonly ICategoriaRepository _categoriaRepository;
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(ILogger<HomeController> logger, IProdutoRepository produtoRepository, ICategoriaRepository categoriaRepository)
     {
         _logger = logger;
+        _produtoRepository = produtoRepository;
+        _categoriaRepository = categoriaRepository;
     }
 
     public IActionResult Index()
     {
-        return View();
-    }
-
-    public IActionResult Privacy()
-    {
-        return View();
+        var produtos = _produtoRepository.Produtos;
+        return View(produtos);
     }
 }

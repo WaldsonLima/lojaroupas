@@ -1,0 +1,9 @@
+global using Microsoft.EntityFrameworkCore;
+global using Loja.Web.Models;
+global using Loja.Web.Context;
+global using System.ComponentModel.DataAnnotations.Schema;
+global using System.ComponentModel.DataAnnotations;
+global using Loja.Web.Repositories.Interfaces;
+global using Loja.Web.Repositories;
+global using System.Diagnostics;
+global using Microsoft.AspNetCore.Mvc;
