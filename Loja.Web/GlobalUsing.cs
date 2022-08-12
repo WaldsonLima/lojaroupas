@@ -7,3 +7,6 @@ global using Loja.Web.Repositories.Interfaces;
 global using Loja.Web.Repositories;
 global using System.Diagnostics;
 global using Microsoft.AspNetCore.Mvc;
+global using Loja.Web.ViewModels;
+global using Microsoft.AspNetCore.Identity;
+global using Microsoft.AspNetCore.Identity.EntityFrameworkCore;

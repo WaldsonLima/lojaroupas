@@ -6,6 +6,7 @@
     <title>@ViewData["Title"] - Loja.Web</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Loja.Web.styles.css" asp-append-version="true" />
 </head>
 <body>
@@ -18,9 +19,9 @@
                 </a>
 
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="#" class="nav-link px-2 text-white">Loja</a></li>
+                    <li><a asp-controller="Home" asp-action="Index" class="nav-link px-2 text-white">Loja</a></li>
+                    <li>@await Component.InvokeAsync("CarrinhoCompraResumo")</li>
                     <li><a href="#" class="nav-link px-2 text-white">Wishlist</a></li>
-                    <li><a href="#" class="nav-link px-2 text-white">Carrinho</a></li>
                 </ul>
 
                 <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">

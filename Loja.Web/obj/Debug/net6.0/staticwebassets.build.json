@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ODMGg+K1dGLsPPibaB7FUhNNJm7nrHxgI8tYgZoPXPo=",
+  "Hash": "L0sz+W4VX+TK4TM6p1S9W1h0cm0pSgs4lb87ilgdbg4=",
   "Source": "Loja.Web",
   "BasePath": "_content/Loja.Web",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Waldson\\Desktop\\lojaroupas\\Loja.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Loja.Web.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Waldson\\Desktop\\lojaroupas\\Loja.Web\\wwwroot\\css\\home.css",
+      "SourceId": "Loja.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Waldson\\Desktop\\lojaroupas\\Loja.Web\\wwwroot\\",
+      "BasePath": "_content/Loja.Web",
+      "RelativePath": "css/home.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\home.css"
     },
     {
       "Identity": "C:\\Users\\Waldson\\Desktop\\lojaroupas\\Loja.Web\\wwwroot\\css\\site.css",
@@ -255,12 +272,12 @@
       "OriginalItemSpec": "wwwroot\\img\\mochila-studio.jpg"
     },
     {
-      "Identity": "C:\\Users\\Waldson\\Desktop\\lojaroupas\\Loja.Web\\wwwroot\\img\\roupa.jpg",
+      "Identity": "C:\\Users\\Waldson\\Desktop\\lojaroupas\\Loja.Web\\wwwroot\\img\\roupa.png",
       "SourceId": "Loja.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Waldson\\Desktop\\lojaroupas\\Loja.Web\\wwwroot\\",
       "BasePath": "_content/Loja.Web",
-      "RelativePath": "img/roupa.jpg",
+      "RelativePath": "img/roupa.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -269,7 +286,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\roupa.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\roupa.png"
     },
     {
       "Identity": "C:\\Users\\Waldson\\Desktop\\lojaroupas\\Loja.Web\\wwwroot\\js\\site.js",

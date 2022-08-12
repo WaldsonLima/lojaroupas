@@ -1,32 +1,26 @@
-﻿@model IEnumerable<Produto>
+﻿@using Loja.Web.ViewModels;
+@model ProdutoViewModel
 @{
     ViewData["Title"] = "Home";
 }
 
-@foreach (var item in Model)
-{
-    var urlImg = @item.UrlImg;
-
-    <div class="album py-5 bg-light main-lista">
-        <div class="container">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <img src="@item.UrlImg" alt="">
-                        <div class="card-body">
-                            <h4>@item.Nome</h4>
-                            <p class="card-text">@item.Descricao</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Adicionar ao carrinho</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
-                                </div>
-                                <small class="text-muted">@item.CategoriaId</small>
-                            </div>
-                        </div>
+<div class="area-cards">
+    @foreach (var item in Model.Produtos)
+    {
+        <div class="cada-card">
+            <img src="~/img/roupa.png" alt="">
+            <div class="conteudo-card">
+                <h4>@item.Nome</h4>
+                <p class="card-text">@item.Descricao</p>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <a asp-controller="CarrinhoCompra" asp-action="AdicionarItemNoCarrinhoCompra" asp-route-produtoId="@item.ProdutoId">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Adicionar ao carrinho</button>
+                        </a>
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-}
+    }
+</div>

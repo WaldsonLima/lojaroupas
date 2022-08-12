@@ -1,4 +1,6 @@
-﻿namespace Loja.Web.Controllers;
+﻿using Loja.Web.ViewModels;
+
+namespace Loja.Web.Controllers;
 
 public class HomeController : Controller
 {
@@ -15,7 +17,13 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        var produtos = _produtoRepository.Produtos;
-        return View(produtos);
+        // var produtos = _produtoRepository.Produtos;
+        // return View(produtos);
+
+        var produtoViewModel = new ProdutoViewModel();
+        produtoViewModel.Produtos = _produtoRepository.Produtos;
+        produtoViewModel.CategoriaAtual = "Categoria Atual";
+
+        return View(produtoViewModel);
     }
 }

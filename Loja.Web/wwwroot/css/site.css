@@ -15,8 +15,5 @@ html {
 
 body {
   margin-bottom: 60px;
-}
-
-.main-lista {
-  width: 100vw;
+  background-color: #f1f1f1;
 }
