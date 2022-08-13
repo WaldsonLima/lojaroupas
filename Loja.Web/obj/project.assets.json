@@ -4829,23 +4829,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Waldson\\.nuget\\packages\\": {},
+    "C:\\Users\\walds\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Waldson\\Desktop\\lojaroupas\\Loja.Web\\Loja.Web.csproj",
+      "projectUniqueName": "C:\\Users\\walds\\Desktop\\lojaroupas\\Loja.Web\\Loja.Web.csproj",
       "projectName": "Loja.Web",
-      "projectPath": "C:\\Users\\Waldson\\Desktop\\lojaroupas\\Loja.Web\\Loja.Web.csproj",
-      "packagesPath": "C:\\Users\\Waldson\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Waldson\\Desktop\\lojaroupas\\Loja.Web\\obj\\",
+      "projectPath": "C:\\Users\\walds\\Desktop\\lojaroupas\\Loja.Web\\Loja.Web.csproj",
+      "packagesPath": "C:\\Users\\walds\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\walds\\Desktop\\lojaroupas\\Loja.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Waldson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\walds\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4919,7 +4919,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
