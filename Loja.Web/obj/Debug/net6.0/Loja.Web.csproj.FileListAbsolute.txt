@@ -82,3 +82,4 @@ C:\Users\walds\Desktop\lojaroupas\Loja.Web\obj\Debug\net6.0\refint\Loja.Web.dll
 C:\Users\walds\Desktop\lojaroupas\Loja.Web\obj\Debug\net6.0\Loja.Web.pdb
 C:\Users\walds\Desktop\lojaroupas\Loja.Web\obj\Debug\net6.0\Loja.Web.genruntimeconfig.cache
 C:\Users\walds\Desktop\lojaroupas\Loja.Web\obj\Debug\net6.0\ref\Loja.Web.dll
+C:\Users\walds\Desktop\lojaroupas\Loja.Web\bin\Debug\net6.0\package-lock.json

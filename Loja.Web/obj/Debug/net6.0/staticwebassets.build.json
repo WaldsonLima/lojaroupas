@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "e8As09UY3cBoD3QX+2a+Pkd1uMolNMEJvUIVCZE4m+E=",
+  "Hash": "xcum+vcyJPUMuFd1EMdCJaejV0OFPk9zHs/hrc+g75w=",
   "Source": "Loja.Web",
   "BasePath": "_content/Loja.Web",
   "Mode": "Default",
@@ -202,6 +202,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\chapeu-totoro.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\walds\\Desktop\\lojaroupas\\Loja.Web\\wwwroot\\img\\imgHome.png",
+      "SourceId": "Loja.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\walds\\Desktop\\lojaroupas\\Loja.Web\\wwwroot\\",
+      "BasePath": "_content/Loja.Web",
+      "RelativePath": "img/imgHome.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\imgHome.png"
     },
     {
       "Identity": "C:\\Users\\walds\\Desktop\\lojaroupas\\Loja.Web\\wwwroot\\img\\jirachi.jpg",

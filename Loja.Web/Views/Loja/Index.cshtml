@@ -1,0 +1,23 @@
+@using Loja.Web.ViewModels;
+@model ProdutoViewModel
+@{
+    ViewData["Title"] = "Loja";
+}
+
+<div class="area-cards">
+    @foreach (var item in Model.Produtos)
+    {
+        <div class="cada-card">
+            <img src="~/img/roupa.png" alt="">
+            <div class="conteudo-card">
+                <h4>@item.Nome</h4>
+                <p class="card-text">@item.Descricao</p>
+                <div class="d-flex justify-content-between align-items-center">
+                    <a asp-controller="CarrinhoCompra" asp-action="AdicionarItemNoCarrinhoCompra" asp-route-produtoId="@item.ProdutoId">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Adicionar ao carrinho</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

@@ -17,3 +17,30 @@ body {
   margin-bottom: 60px;
   background-color: #f1f1f1;
 }
+
+.nav-iten-local {
+  color: #fff;
+}
+
+.nav-iten-local:hover {
+  color: pink;
+}
+
+.header-local {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+.div-login {
+  position: absolute;
+  right: 50px;
+}
+
+.caixa-item-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

@@ -10,3 +10,4 @@ global using Microsoft.AspNetCore.Mvc;
 global using Loja.Web.ViewModels;
 global using Microsoft.AspNetCore.Identity;
 global using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+global using Microsoft.AspNetCore.Authorization;

@@ -22,3 +22,66 @@
     align-items: center;
     flex-direction: column;
 }
+
+.area-home {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.area-home h1 {
+    color: pink;
+    margin: 2.5% 0;
+}
+
+.area-carrinho {
+    width: 60%;
+    margin: 5% auto;
+}
+
+.btn-rm svg {
+    color: #000;
+}
+
+.btn-rm svg:hover {
+    color: rgb(255, 0, 0);
+}
+
+.btn-add svg {
+    color: #000;
+}
+
+.btn-add svg:hover {
+    color: rgb(0, 255, 0);
+}
+
+.div-login-form {
+    width: 25%;
+    margin: 10% auto;
+}
+
+.div-form-group {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.div-form-group div {
+    width: 100%;
+}
+
+.form-input-local {
+    width: 100%;
+}
+
+.loja-link {
+    text-decoration: none;
+    color: pink;
+}
+
+.loja-link:hover {
+    color: rgb(255, 213, 220);
+}
